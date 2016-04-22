@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="project.weatherapp.DisplayWeatherActivity">
+
+    <item
+        android:id="@+id/action_refresh1"
+        android:orderInCategory="21"
+        android:icon="@drawable/ic_refresh_white_24dp"
+        android:title="@string/menutitle_refresh"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_units1"
+        android:orderInCategory="22"
+        android:titleCondensed="°C"
+        android:title="@string/menutitle_units"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_manage"
+        android:orderInCategory="23"
+        android:icon="@drawable/ic_edit_location_white_24dp"
+        android:title="@string/menutitle_add"
+        app:showAsAction="always" />
+
+    <!--
+    <item
+        android:id="@+id/action_pref"
+        android:orderInCategory="24"
+        android:icon="@drawable/ic_settings_white_24dp"
+        android:title="Preferences"
+        app:showAsAction="always" />
+    -->
+
+</menu>

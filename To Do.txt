@@ -1,0 +1,22 @@
+Tasks for Weather app:
+
+To DO:
+ - dim actual screen and show a progress screen when retrieving data.
+
+1. retrieve location info
+	- when to retrieve location information? -> 1st check in onResume()  -- done	
+	- how often to check for change in location? -- done
+		
+2. store location and setting information
+	- file / json / sharedPreferences?
+	
+		
+3. Support multiple locations:
+	- Viewpager? or spinner or tabs
+	
+
+4. Dimensions of components
+	- get size of cardviews based on device screen resolution
+
+
+

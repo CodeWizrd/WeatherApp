@@ -1,0 +1,55 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.sampath.project.weatherapp.WeatherActivity">
+
+    <item
+        android:id="@+id/action_more"
+        android:orderInCategory="10"
+        android:icon="@drawable/ic_keyboard_arrow_down_white_24dp"
+        android:title="@string/menutitle_more"
+        app:showAsAction="always" >
+
+        <menu android:id="@+id/submenu">
+
+        </menu>
+
+    </item>
+
+    <item
+        android:id="@+id/action_plus"
+        android:orderInCategory="12"
+        android:icon="@drawable/ic_add_white_24dp"
+        android:title="@string/menutitle_more"
+        app:showAsAction="always" />
+
+    <!--
+    <item
+        android:id="@+id/action_refresh"
+        android:orderInCategory="11"
+        android:icon="@drawable/ic_autorenew_white_24dp"
+        android:title="@string/menutitle_refresh"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_units"
+        android:orderInCategory="12"
+        android:titleCondensed="°C"
+        android:title="@string/menutitle_units"
+        app:showAsAction="ifRoom" />
+    
+    <item
+        android:id="@+id/action_add"
+        android:orderInCategory="13"
+        android:icon="@drawable/ic_add_location_white_24dp"
+        android:title="@string/menutitle_add"
+        app:showAsAction="ifRoom" />
+
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    -->
+</menu>
